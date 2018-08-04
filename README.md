@@ -18,3 +18,10 @@ this is a chrome extension。
 ## 愿景
 
 其实黑名单不是一个好办法，最好用AI人工智能，不过目前还做不到。。。
+
+
+## update 
+
+* 2018.08.04
+  自动更新blacklist.json文件。
+  感谢[DiamondYuan](https://github.com/DiamondYuan)提供了更新json的方法。
