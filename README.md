@@ -6,7 +6,7 @@ this is a chrome extension。
 
 ## 原理
 
-不良网站的url都放在一个黑名单中~~blacklist.js~~ blacklist.json (2018.08.04) update），当用户打开chrome标签页时，程序会遍历黑名单和浏览器地址栏里的地址做对比，如果能对上，则意味着该网站是不良网站，直接屏蔽掉。
+不良网站的url都放在一个黑名单中~~blacklist.js~~ ~~~blacklist.json (2018.08.04) update~~~ blackkeys.json (2018.08.13) update，当用户打开chrome标签页时，程序会遍历黑名单和浏览器地址栏里的地址做对比，如果能对上，则意味着该网站是不良网站，直接屏蔽掉。
 
 ## 维护
 
