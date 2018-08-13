@@ -4,7 +4,7 @@
   "description": "404",
   "version": "1.0",
   "background": {
-    "scripts": ["background.js","jquery.min.js"],
+    "scripts": ["jquery.min.js","jquery.md5.js","background.js"],
     "persistent": false
   },
   "browser_action": {

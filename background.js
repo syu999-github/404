@@ -6,15 +6,17 @@ function load_blacklist() {
 		json = JSON.parse(xhr.responseText);
 		blacklist = json.urls;
     };
-    xhr.open('GET', 'https://raw.githubusercontent.com/pmthink/404/master/blacklist.json');
+    xhr.open('GET', 'https://raw.githubusercontent.com/pmthink/404/master/blackkeys.json');
     xhr.send();
 }
 
 load_blacklist();
 
 function is_in_blacklist(url) {
+
 	var bool=false;
 	blacklist.map(function(blackurl,index,arr){
+
 		if(url.match(blackurl)){
 			bool = true;
 		}
