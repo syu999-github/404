@@ -6,7 +6,7 @@ function load_blacklist() {
 		json = JSON.parse(xhr.responseText);
 		blacklist = json.urls;
     };
-    xhr.open('GET', 'https://raw.githubusercontent.com/pmthink/404/master/blackkeys.json');
+    xhr.open('GET', 'https://raw.githubusercontent.com/pmthink/404/master/blacklist.json');
     xhr.send();
 }
 
